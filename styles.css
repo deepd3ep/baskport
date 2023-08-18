@@ -216,6 +216,77 @@ body {
     text-align: center;
 }
 
+/* news */
+
+.news {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.news_blocks {
+    width: 1300px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.news_blocks--row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.news_block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.news_block-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imgcontainer {
+    height: 200px;
+    width: 250px;
+    background-image: url(./img/news-fish.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+.news_text {
+    width: 350px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.news_text-right {
+    text-align: right;
+    width: 350px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.news_text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.news_text p {
+    font-size: 20px;
+}
+
+.news_text-right h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.news_text-right p {
+    font-size: 20px;
+}
+
 /* team */
 
 .team_h1 {
