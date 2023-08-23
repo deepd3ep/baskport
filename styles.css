@@ -154,6 +154,7 @@ body {
 .results_h1 {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .bask_logo {
@@ -161,10 +162,14 @@ body {
 }
 
 .containerres {
-    display: flex;
-    padding: 30px;
-    margin: auto;
-    width: 700px;
+}
+
+.results {
+display: flex;
+/* padding: 30px; */
+margin: auto;
+width: 700px;
+flex-direction: column;
 }
 
 .score p {
